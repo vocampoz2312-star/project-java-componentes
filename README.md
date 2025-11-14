@@ -7,14 +7,18 @@ Este proyecto desarrolla un sistema en Java basado en programación orientada a 
 
 En el método principal (main), se instancian objetos de estas clases y se visualizan sus datos en consola, permitiendo validar su comportamiento y facilitar la comprensión del modelo. Esta implementación busca no solo fortalecer el dominio técnico en Java, sino también fomentar una visión integral del diseño de sistemas complejos mediante la modularidad y la claridad estructural.
 
+## Diagrama o descripción especifica 
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Diagrama o descripción de las clases y sus relaciones Clases principales:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+* Vehiculo Atributos generales de cualquier vehículo: marca, modelo, año, color, peso, etc.
+* Motor Tipo de motor, cilindrada, caballos de fuerza, consumo, etc.
+* Transmision Tipo de transmisión, número de marchas y relación.
+* Chasis Material, dimensiones, peso estructural.
+* Neumatico Tipo de caucho, tamaño, presión recomendada.
+* SistemaFrenos Tipo de frenos y eficiencia.
+* SistemaElectrico Voltaje, capacidad, tipo de batería.
+* Sensor Modela sensores individuales del vehículo (velocidad, temperatura, presión, etc).
+* Mantenimiento Historial y programación de mantenimientos realizados.
+* RegistroVehicular Matrícula, propietario y fecha de registro.
+![alt text](image.png) ![alt text](image-1.png)

@@ -1,10 +1,12 @@
-## Getting Started
+## Nombre del proyecto
+project-java-componentes
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descripción general
 
-## Folder Structure
+Este proyecto desarrolla un sistema en Java basado en programación orientada a objetos, con el propósito de representar de forma estructurada y funcional los principales componentes de un vehículo. Se han diseñado clases específicas para elementos como el motor, chasis, transmisión, frenos, neumáticos, sensores, sistema eléctrico, registro vehicular y mantenimiento, cada una con atributos y métodos que reflejan su rol dentro del funcionamiento general del vehículo.
 
-The workspace contains two folders by default, where:
+En el método principal (main), se instancian objetos de estas clases y se visualizan sus datos en consola, permitiendo validar su comportamiento y facilitar la comprensión del modelo. Esta implementación busca no solo fortalecer el dominio técnico en Java, sino también fomentar una visión integral del diseño de sistemas complejos mediante la modularidad y la claridad estructural.
+
 
 - `src`: the folder to maintain sources
 - `lib`: the folder to maintain dependencies

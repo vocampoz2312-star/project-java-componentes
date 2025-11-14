@@ -16,7 +16,7 @@ public class Vehiculo {
 
     // metodo
     public void mostrarVehiculo() {
-        System.out.println("==Informacion del Vehicuilo== ");
+        System.out.println("==Informacion del Vehículo== ");
         System.out.println("Marca: " + marca);
         System.out.println("Modelo: " + modelo);
         System.out.println("Color: " + color);
